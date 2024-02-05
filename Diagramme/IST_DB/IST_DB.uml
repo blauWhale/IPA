@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement>95128bd7-322a-4d3e-92fe-b7ab04ccfdc9.TABLE:ovweb.app.address</OriginalElement>
+  <nodes>
+    <node x="101.55434782608694" y="457.3913043478261">95128bd7-322a-4d3e-92fe-b7ab04ccfdc9.TABLE:ovweb.app.user</node>
+    <node x="-155.43478260869563" y="385.3913043478261">95128bd7-322a-4d3e-92fe-b7ab04ccfdc9.TABLE:ovweb.app.customer</node>
+    <node x="-485.93478260869557" y="433.3913043478261">95128bd7-322a-4d3e-92fe-b7ab04ccfdc9.TABLE:ovweb.app.address</node>
+    <node x="-165.93478260869563" y="707.173913043478">95128bd7-322a-4d3e-92fe-b7ab04ccfdc9.TABLE:ovweb.app.flyway_schema_history</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="95128bd7-322a-4d3e-92fe-b7ab04ccfdc9.TABLE:ovweb.app.customer" target="95128bd7-322a-4d3e-92fe-b7ab04ccfdc9.TABLE:ovweb.app.address" relationship="REFERENCES">
+      <point x="-105.0" y="0.0" />
+      <point x="104.5" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="0.6133333333333334" showDependencies="false" x="230.31304347826062" y="258.5652173913042" />
+  <SelectedNodes>
+    <node>95128bd7-322a-4d3e-92fe-b7ab04ccfdc9.TABLE:ovweb.app.flyway_schema_history</node>
+    <node>95128bd7-322a-4d3e-92fe-b7ab04ccfdc9.TABLE:ovweb.app.user</node>
+    <node>95128bd7-322a-4d3e-92fe-b7ab04ccfdc9.TABLE:ovweb.app.address</node>
+    <node>95128bd7-322a-4d3e-92fe-b7ab04ccfdc9.TABLE:ovweb.app.customer</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Columns</Category>
+    <Category>Comments</Category>
+    <Category>Key columns</Category>
+    <Category>Virtual foreign keys</Category>
+  </Categories>
+</Diagram>
+

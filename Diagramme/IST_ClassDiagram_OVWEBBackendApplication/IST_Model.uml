@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.generali.ovweb.model</OriginalElement>
+  <nodes>
+    <node x="-445.1549450549451" y="352.59230769230766">com.generali.ovweb.model.Customer</node>
+    <node x="-736.7252747252749" y="400.5923076923077">com.generali.ovweb.model.Address</node>
+    <node x="-152.5846153846153" y="424.5923076923077">com.generali.ovweb.model.User</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.generali.ovweb.model.Customer" target="com.generali.ovweb.model.Address" relationship="TO_ONE">
+      <point x="-89.5" y="5.6843418860808015E-14" />
+      <point x="89.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="1.2101063829787233" showDependencies="true" x="-16.5" y="314.13186813186815" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

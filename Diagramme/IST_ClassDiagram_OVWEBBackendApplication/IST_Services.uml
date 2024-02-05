@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.generali.ovweb.service.UserService</OriginalElement>
+  <nodes>
+    <node x="-699.8333333333335" y="958.0104166666666">com.generali.ovweb.controller.CustomerController</node>
+    <node x="-287.28125" y="677.0">com.generali.ovweb.service.UserService</node>
+    <node x="-677.8333333333335" y="677.0">com.generali.ovweb.service.CustomerService</node>
+    <node x="-287.28125" y="957.0104166666667">com.generali.ovweb.controller.UserController</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.generali.ovweb.controller.UserController" target="com.generali.ovweb.service.UserService" relationship="TO_ONE">
+      <point x="-0.0" y="-80.5" />
+      <point x="-0.0" y="92.5" />
+    </edge>
+    <edge source="com.generali.ovweb.controller.CustomerController" target="com.generali.ovweb.service.CustomerService" relationship="TO_ONE">
+      <point x="22.0" y="-79.5" />
+      <point x="-0.0" y="79.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="0.768" showDependencies="true" x="-329.2916666666663" y="947.8645833333333" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

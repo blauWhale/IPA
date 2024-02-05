@@ -1,0 +1,37 @@
+@startuml
+skinparam package {
+    BackgroundColor PaleGreen
+    BorderColor SpringGreen
+}
+
+skinparam database {
+    BackgroundColor Gold
+    BorderColor DarkGoldenRod
+}
+
+skinparam node {
+    BackgroundColor LightBlue
+    BorderColor Blue
+}
+
+package "Frontend - Next.js 14" {
+    [NextJS Frontend] as NextJS
+}
+
+package "Backend - Spring Boot Java 21" {
+    [SpringBoot Backend] as SpringBoot
+}
+
+database "Datenbank - PostgreSQL" {
+    [PostgreSQL DB] as DB
+}
+
+node "Identity Manager - Keycloak" {
+    [Keycloak ID] as Keycloak
+}
+
+NextJS <--> SpringBoot
+SpringBoot <--> DB
+SpringBoot <--> Keycloak
+
+@enduml
